@@ -1,0 +1,130 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage[pdfborder=0 0 0]{hyperref}
+\fontfamily{Cambria}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+% \usepackage{helvetica}
+% \usepackage{array}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.90}
+\textheight=9.75in
+\raggedbottom
+% \raggedright
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.375in}
+%\addtolength{\evensidemargin}{-0.375in}
+%\addtolength{\textwidth}{1.75in}
+%\addtolength{\topmargin}{0.1375in}
+%\addtolength{\textheight}{1.75in}
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+% \textit{#3} &  \\
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\ 
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\[-0.2cm]
+
+\resheading{\textbf{\large Scholastic Achievements}}
+\begin{itemize}
+  \item \textbf{AlR 61} out of 4.55 lakh students in IIT-JEE (Joint Entrance Examination) - 2010 \\[-0.7cm]
+  
+  \item \textbf{AIR 3} of 18000 students in NEST (National Entrance Screening Test)-2010  \\[-0.7cm]%and \textbf{AIR 168} in AIEEE (All India Engineering Entrance Examination)- 2010. 
+
+ \item Qualified to appear for the Indian National Chemistry Olympiad (\textbf{INChO}) -2010 and Indian National Physics Olympiad (\textbf{INPhO}) -2010 (Top 300 selected nationwide based on performance in NSEP and NSEC)\\[-0.7cm]
+  
+  %\item Awarded \textbf{Certificate of Merit} by Central Board of Secondary Education (\textbf{CBSE}) for being among \textbf{top 0.1 \%} in `Science' and `Social Science' in All India Secondary School Examination - 2008 and Awarded '\textbf{Certificate of Excellence}' for securing highest aggregrate marks in the school \\[-0.7cm]
+ \item Secured \textbf{AIR 5} in the  XXXIX National Mathematics Talent Competition (\textbf{NMTC})-2007 conducted by Association of Mathematics Teachers of India (\textbf{AMTI}).\\[-0.7cm]
+  %\item Secured \textbf{AIR 15} in 10th National Science Olympiad (NSO) - 2007 and \textbf{State Rank 9} in 7th National Cyber Olympiad (NCO)- 2007  conducted by Science Olympiad Foundation(SOF).
+  \\
+\end{itemize}
+
+\resheading{\textbf{\large Summer Project}}
+\begin{itemize}
+    \item \textbf{Google Summer of Code 2012}: \ Plugin for Gnucap \emph{(May 2012 to August 2012)} \ \ \ [\url{gnucap.org}]\\[-0.6cm]
+    \begin{itemize}
+        \item Worked under organisation 'The GNU Project' on the project Gnucap (GNU Circuit Analysis Package)\\[-0.6cm]
+        \item Implemented a plugin to convert a schematic of a circuit into Verilog-AMS netlist and vice-versa.\\[-0.6cm]
+       \item Programmed in C++ and object-oriented programming paradigms.\\[-0.5cm]
+    \end{itemize}
+\end{itemize}
+
+\resheading{\textbf{\large Course Projects}}
+\begin{itemize}
+\item \textbf{Traveling Message Display} \emph{(Guided by Prof. M.B.Patil and J.John)}\\[-0.6cm]
+    \begin{itemize}
+        \item Worked in a team of 3 to display a scrolling message on an LED Array using FPGA DE0 NANO\\[-0.6cm]
+        \item My work involved writing verilog modules for taking input from the keypad and processing it.\\[-0.6cm]
+    \end{itemize}
+\item \textbf{Simulation of Micromouse} \emph{(Guided by Prof.Deepak B. Phatak, CS101 - Autumn 2010)}\\[-0.7cm]
+	\begin{itemize}
+	    \item Led the team of 12 members in designing and solved n$\times$n mazes them for the minimum path using Bellman-ford algorithm in C++ and simulated using EzWindows GUI.\\[-0.6cm]
+	\end{itemize} 
+\item \textbf{Term paper on Working of a Cordless Telephone} \emph{(Guided by Prof. Vasi J. , EE112 - Spring 2011)\\[-0.7cm]}
+	\begin{itemize} \itemsep \isep
+	  \item Opened and Analyzed a Cordless phone in a team of 3 members and written a 12-page Term paper with details of working of the phone.
+	  \end{itemize}
+\end{itemize}
+
+\resheading{\textbf{\large Technical Skills}}
+\begin{itemize}
+  %\item Awarded Certificate of Participation in the Winter Workshop on Technical Skills conducted by \\ \ \  \ \ \ \  STUDe Club, IIT Bombay in January 2011. \\[-0.7cm]
+  \item \textbf{Programming Languages}: C++,Java,Python,Ruby \  \ \ \ \ \ \ \  \textbf{Operating Systems}: Linux-Ubuntu, Windows\\[-0.6cm]
+  \item \textbf{Tools}: Matlab, Mathematica, Scilab, Latex, Photoshop\ \ \ \  \textbf{Web designing}: HTML, CSS, Javascript\\[-0.6cm]
+  \item \textbf{EE tools}: Spice, Verilog-HDL, Verilog-AMS , Arduino
+\end{itemize}
+
+\resheading{\textbf{\large Technical Activities}}
+\begin{itemize}
+ \item Yahoo! HackU -2012: Built an android app and web interface, 'MapIt' which can be used to create customizable maps of localities with greater information\\[-0.7cm]
+ \item Trackmania-2010 : Built a remote-controlled four-wheeled car (bot). \\[-0.7cm]
+ 	
+ \item Line-follower competition-2011 :Built a line-following bot using IR sensors and Arduino.
+\end{itemize}
+
+\resheading{\textbf{\large Extra Curricular Activities and Achievements}}
+\begin{itemize}
+  \item Participated in \textbf{Unnati}, the \textbf{NSS} (National Service Scheme) group of IIT Bombay.\\[-0.7cm]
+	\begin{itemize}
+	 \item Has been involved with the \textbf{GRA} (Group for Rural Activities) as part of curriculum in First year\\[-0.6cm]
+	 \item Went to Village trips in Autumn 2010 and Spring 2011.\\[-0.6cm]
+	 \item Continued as a voluntary member of the NSS Team in the subsequent year.\\[-0.6cm]
+	  \end{itemize}
+  \item Worked as `Organiser' in \textbf{Techfest-2011}, in the Lecture Series department. \\[-0.6cm]
+  \item Participated in the Inter-hostel Hockey GC. 
+\end{itemize}
+
+\resheading{\textbf{\large Extra Courses currently taking (Autumn 2012)}}
+  \begin{itemize}
+  \item Data Structures and Algorithms
+  \item Artificial Intelligence
+  \item Foundations of VLSI CAD
+\end{itemize}
+
+\end{document}
