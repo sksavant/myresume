@@ -1,0 +1,203 @@
+\documentclass[a4paper,11pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[pdfborder=0 0 0]{hyperref}
+\usepackage{palatino}
+\usepackage{verbatim}
+\fontfamily{Cambria}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+% \usepackage{helvetica}
+% \usepackage{array}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.90}
+\textheight=9.75in
+\raggedbottom
+% \raggedright
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.375in}
+%\addtolength{\evensidemargin}{-0.375in}
+%\addtolength{\textwidth}{1.75in}
+%\addtolength{\topmargin}{0.1375in}
+%\addtolength{\textheight}{1.75in}
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+% \textit{#3} &  \\
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\ 
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\
+\hspace{0.5cm}\\[-0.2cm]
+
+\resheading{\textbf{\large Scholastic Achievements}}\\[\lsep]
+\begin{itemize}
+  \item \textbf{All India Rank 61} in IIT-JEE (Joint Entrance Examination) - 2010. of 0.455 million students\\[-0.7cm]
+  \item \textbf{All India Rank 3} in NEST (National Entrance Screening Test)-2010. of 18000 students \\[-0.7cm]
+  %\item \textbf{All India Rank 168} in AIEEE (All India Engineering Entrance Examination)- 2010 of 1.1 million students
+
+ \item Qualified to appear for the Indian National Chemistry Olympiad (\textbf{INChO}) -2010 based on \\performance in National Standard Examination in Chemistry(\textbf{NSEC}) (For \textbf{top 300} in NSEC) and has been awarded a book prize for \textbf{top 1\%} in the nation .\\[-0.7cm]
+  \item Qualified to appear for the Indian National Physics Olympiad (\textbf{INPhO}) -2010 based on \\ performance in National Standard Examination in Chemistry(\textbf{NSEP}). (For \textbf{top 300} in NSEP) 
+  
+  \item Awarded \textbf{Certificate of Merit} by Central Board of Secondary Education (\textbf{CBSE}) for being among \textbf{top 0.1 \%} in 'Science' and 'Social Science' in All India Secondary School Examination - 2008. \\[-0.7cm]
+ %\item Awarded '\textbf{Certificate of Excellence}' for securing highest aggregrate marks in the \\ school and  the title '\textbf{Amul Vidya Shree}' for Outstanding Academic performance in AISSE - 2008.
+
+   \item Secured \textbf{AIR 4} in NIMO (National Interactive Maths Olympiad)-2009 and \textbf{AIR 5} in NISO\\ (National Interactive Science Olympiad)-2009 conducted by Eduheal Foundation.\\[-0.8cm]
+  \item Secured \textbf{AIR 5} in the  XXXIX National Mathematics Talent Competition (\textbf{NMTC})-2007 conducted by Association of Mathematics Teachers of India (\textbf{AMTI}).\\[-0.8cm]
+  %\item Secured \textbf{AIR 5} in FIITJEE Talent Reward Exam (FTRE) and was awarded medal for zonal topper in Mathematics, Physics and Overall.
+  \item Secured \textbf{AIR 15} in 10th National Science Olympiad (NSO) - 2007 conducted by \\ Science Olympiad Foundation(SOF).
+  %\item Secured \textbf{State Rank 9} in 7th National Cyber Olympiad (NCO)- 2007 conducted by SOF.
+ %\item Secured \textbf{State Rank 13} in XX State Talent Search Examination- 2007 conducted by \\ Dr.A.S. Rao Awards Council and was awarded a book prize.
+\end{itemize}
+
+\resheading{\textbf{\large Summer Project - GSoC'12}} \\
+
+\hspace{1mm}Gnucap plugin for schematic files (\textbf{Google summer of Code}) \emph{May 2012 to August 2012} \\[-0.6cm]
+    \begin{itemize}
+        \item Worked with the organisation 'The GNU Project' on the project 'Gnucap' (GNU Circuit Analysis Package) under the mentorship of Albert Davis \ \ \ \  [\url{gnucap.org}] \\[-0.6cm]
+        \item Programmed in C++. The plugin can be loaded dynamically at run-time
+        \item My work involved the following :
+        \begin{itemize} \itemsep \isep
+        \item Reading through the existing codebase to understand it 
+        \item Figuring a way to map schematic file to Verilog-AMS and vice-versa
+        \item Implementing a plugin which will import a schematic file and convert into a Verilog-AMS netlist and also export an existing  circuit in schematic format
+        
+    \end{itemize}
+    \end{itemize}
+
+
+\resheading{\textbf{\large Course Projects}}\\[\lsep]
+\begin{itemize}
+\item \textbf{Traveling Message Display} \emph{(Guided by Prof. M.B.Patil and J.John, EE214- Spring 2012)}\\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+        \item Worked in a team of 3 
+        \item Display a scrolling message taken using keypad on an LED Array
+        \item Used an FPGA board: DE0 NANO and programmed using Verilog-HDL
+        \item My work involved writing verilog modules for taking input from the keypad and processing
+    \end{itemize}
+    	\item \textbf{Simulation of Micromouse} \emph{(Guided by Prof.Deepak B. Phatak, CS101 - Autumn 2010)}\\[-0.6cm]
+	\begin{itemize}\itemsep \isep 
+	    \item Led the team of 12 members.with 3 subteams of 4 members each
+	    \item Designed n$\times$n mazes, Solved them for the shortest path using Bellman-ford algorithm in C++ and Simulated the solution using EzWindows GUI.
+	    \item My work involved programming the display over GUI and interlinking the different parts
+	\end{itemize} 
+\item \textbf{Term paper on Working of a Cordless Telephone} \emph{(Guided by Prof. Vasi J. , EE112 - Spring 2011)\\[-0.6cm]}
+	\begin{itemize} \itemsep \isep
+	  \item Opened and Analyzed a Cordless phone.
+	  \item Worked in a team of 3 members.
+	  \item Written a 12-page Term paper with details of working of the phone.
+	\end{itemize}
+\end{itemize}
+
+\resheading{\textbf{\large Interests and Hobbies}} \\[\lsep] 
+\begin{itemize} \itemsep \isep
+    \item Digital Electronics, Microprocessors and VLSI Design
+    \item Computer Science fields like Artificial Intelligence and Natural Language Processing
+    \item App Development and Programming
+\end{itemize}
+
+\resheading{\textbf{\large Technical Skills}}\\[\lsep]
+\begin{itemize}
+  %\item Awarded Certificate of Participation in the Winter Workshop on Technical Skills conducted by \\ \ \  \ \ \ \  STUDe Club, IIT Bombay in January 2011. \\[-0.6cm]
+   \item \textbf{Programming Languages}: C++,Java,Python,Ruby \  \ \ \ \ \ \ \  \textbf{Operating Systems}: Ubuntu, Windows\\[-0.6cm]
+  \item \textbf{Tools}: Matlab, Mathematica, Scilab, Latex, Photoshop\ \ \ \  \textbf{Web designing}: HTML, CSS, Javascript\\[-0.6cm]
+  \item \textbf{EE tools}: Spice, Verilog-HDL, Verilog-AMS , Arduino
+\end{itemize}
+
+\resheading{\textbf{\large Technical Activities}}\\[\lsep]
+\begin{itemize}
+ \begin{comment}
+ \item Trackmania-2010
+ 	\begin{itemize}
+ 		\item Built a remote-controlled four-wheeled car (bot). 
+ 		\item Designed the circuit and soldered it. 
+ 	\end{itemize}
+ \item Participated in Line-follower competition-2011.
+ 	\begin{itemize}
+ 		\item Designed and built a line-following bot.
+ 		\item Used IR sensors and Coded the microcontroller using Arduino software.
+	\end{itemize}
+ \end{comment}
+ \item Yahoo! HackU -2012: Built an android app and web interface, 'MapIt' which can be used to create customizable maps of localities with greater information\\[-0.7cm]
+ \item Line-follower competition-2011 : Designed and built a line-following bot using IR sensors and coding the microcontroller using Arduino software\\[-0.7cm]
+\item Trackmania-2010 : Built a remote-controlled four-wheeled car (bot).
+\end{itemize}
+
+\resheading{\textbf{\large Extra Curricular Activities and Achievements}}\\[\lsep]
+%\resheading{EXTRA CURRICULAR ACTIVITIES AND ACHIEVEMENTS}\\[\lsep]
+\begin{itemize}\itemsep \isep
+  \item Participated in \textbf{Unnati}, the \textbf{NSS} (National Service Scheme) group of IIT Bombay.
+	\begin{itemize} 
+	 \item Has been involved with the \textbf{GRA} (Group for Rural Activities) as part of curriculum in I year\\[-0.6cm]
+	 \item Went to Village trips in Autumn 2010 and Spring 2011.\\[-0.6cm]
+	 \item Continued as a voluntary member of the NSS Team in the subsequent year.
+	  \end{itemize}
+  \item Worked as 'Organiser' in \textbf{Techfest-2011} in the Lecture Series department. \\[-0.6cm]
+  %\item Currently working as '\textbf{Coordinator}' in Techfest-2012.
+  \item Participated in the Inter-hostel Hockey GC. 
+\end{itemize}
+	
+
+\resheading{\textbf{\large Courses currently taking (Autumn 2012)}}\\[\lsep]
+ % \begin{itemize}
+  \begin{comment}
+  \item \textbf{Courses Taken}	
+	\begin{itemize}\itemsep \isep
+	  \item Calculus, Linear Algebra, Differential Equations.
+	  \item Electricity and Magnetism, Chemistry. \\
+	  \item Data Analysis and Interpretation, Computer Programming and Utilization.
+	  \item Introduction to Electrical Systems, Introduction to Electronics 
+	  \item Workshop Practice, Engineering Drawing, Physics Lab, Chemistry Lab. \\
+	  \item Complex Analysis, Differential Equations, Economics 
+	  \item Network Theory, Electronic Devices and Circuits. \\
+	  \item Discrete Structures, A First Course in Optimization.
+	  \item Experimental and Measurement Laboratory, Electronic Devices Lab.
+	\end{itemize}
+	\end{comment}
+% \item \textbf{Courses currently taking this semester}
+ 	\begin{itemize} \itemsep \isep
+ 	    \item EE Core Courses: \\[-0.6cm]
+ 	    \begin{itemize}\itemsep \isep
+ 	        \item Microprocessors, Microprocessors Lab
+ 	        \item Communication Systems, Communications Lab
+ 	        \item Electromagnetic Waves
+ 	    \end{itemize}
+ 	    \item Additional Courses: \\[-0.6cm]
+ 	    \begin{itemize}\itemsep \isep
+ 	        \item Foundations of VLSI CAD
+ 	        \item Artificial Intelligence
+ 	        \item Data Structures and Algorithms
+ 	    \end{itemize}
+ 	    \item Institute Core courses: \\[-0.6cm]
+ 	    \begin{itemize}\itemsep \isep
+ 	        \item Psychology
+ 	    \end{itemize}
+ 	\end{itemize}
+%\end{itemize}
+
+
+\end{document}
