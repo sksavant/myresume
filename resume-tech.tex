@@ -6,6 +6,7 @@
 \usepackage[pdfborder=0 0 0]{hyperref}
 \usepackage{palatino}
 \usepackage{verbatim}
+\usepackage{array}
 \fontfamily{Cambria}
 \selectfont
 
@@ -42,6 +43,7 @@
 %-----------------------------------------------------------
 
 \begin{document}
+
 \hspace{0.5cm}\\
 \hspace{0.5cm}\\
 \hspace{0.5cm}\\
@@ -54,78 +56,122 @@
 \hspace{0.5cm}\\
 \hspace{0.5cm}\\[-0.2cm]
 
-\resheading{\textbf{\large Scholastic Achievements}}\\[\lsep]
+\begin{comment}
+\begin{tabular}{m{8cm} m{8cm}} 
+    \large{KRISHNA SAVANT SYREDDY}  & 100070056\\
+    \large{Electrical Engineering}  & UG Third Year (B.Tech)\\
+    \large{Indian Institute of Technology, Bombay} & DOB: 19-06-1993 \\
+    \large{\url{sk.savant@iitb.ac.in}} & +919757033532
+\end{tabular}
+
+\resheading{\textbf{\large{Education}}}
 \begin{itemize}
-  \item \textbf{All India Rank 61} in IIT-JEE (Joint Entrance Examination) - 2010. of 0.455 million students\\[-0.7cm]
-  \item \textbf{All India Rank 3} in NEST (National Entrance Screening Test)-2010. of 18000 students \\[-0.7cm]
-  %\item \textbf{All India Rank 168} in AIEEE (All India Engineering Entrance Examination)- 2010 of 1.1 million students
+    \item Undergraduate Degree - IIT Bombay - 2008 to present  - 8.59
+    \item Intermediate/+2 - BIE, AP - SR Junior College - 2010 - 90.50
+    \item Matriculation - CBSE - Warangal Public School - 2008 - 93.00
+\end{itemize}
+\end{comment}
 
- \item Qualified to appear for the Indian National Chemistry Olympiad (\textbf{INChO}) -2010 based on \\performance in National Standard Examination in Chemistry(\textbf{NSEC}) (For \textbf{top 300} in NSEC) and has been awarded a book prize for \textbf{top 1\%} in the nation .\\[-0.7cm]
-  \item Qualified to appear for the Indian National Physics Olympiad (\textbf{INPhO}) -2010 based on \\ performance in National Standard Examination in Chemistry(\textbf{NSEP}). (For \textbf{top 300} in NSEP) 
-  
-  \item Awarded \textbf{Certificate of Merit} by Central Board of Secondary Education (\textbf{CBSE}) for being among \textbf{top 0.1 \%} in 'Science' and 'Social Science' in All India Secondary School Examination - 2008. \\[-0.7cm]
- %\item Awarded '\textbf{Certificate of Excellence}' for securing highest aggregrate marks in the \\ school and  the title '\textbf{Amul Vidya Shree}' for Outstanding Academic performance in AISSE - 2008.
 
-   \item Secured \textbf{AIR 4} in NIMO (National Interactive Maths Olympiad)-2009 and \textbf{AIR 5} in NISO\\ (National Interactive Science Olympiad)-2009 conducted by Eduheal Foundation.\\[-0.8cm]
-  \item Secured \textbf{AIR 5} in the  XXXIX National Mathematics Talent Competition (\textbf{NMTC})-2007 conducted by Association of Mathematics Teachers of India (\textbf{AMTI}).\\[-0.8cm]
-  %\item Secured \textbf{AIR 5} in FIITJEE Talent Reward Exam (FTRE) and was awarded medal for zonal topper in Mathematics, Physics and Overall.
-  \item Secured \textbf{AIR 15} in 10th National Science Olympiad (NSO) - 2007 conducted by \\ Science Olympiad Foundation(SOF).
-  %\item Secured \textbf{State Rank 9} in 7th National Cyber Olympiad (NCO)- 2007 conducted by SOF.
- %\item Secured \textbf{State Rank 13} in XX State Talent Search Examination- 2007 conducted by \\ Dr.A.S. Rao Awards Council and was awarded a book prize.
+\resheading{\textbf{\large Research Interests}} \\[\lsep] 
+\begin{itemize} \itemsep \isep
+    \item Digital Electronics, VLSI Design, High Level Synthesis
+    \item Robotics, Artificial Intelligence (Planning  and Localization)
+   % \item App Development and Programming
 \end{itemize}
 
-\resheading{\textbf{\large Summer Project - GSoC'12}} \\
 
-\hspace{1mm}Gnucap plugin for schematic files (\textbf{Google summer of Code}) \emph{May 2012 to August 2012} \\[-0.6cm]
+\resheading{\textbf{\large{Current Projects}}}
+\begin{itemize}
+    \item \textbf{AUVSI Robosub 2013, Sandeigo, CA} \hfill \emph{(September 2012 to Present) } \\
+	Designing and developing an unmanned autonomous underwater vehicle (AUV) that localizes itself and performs realistic missions based on feedback form visual, inertial, acoustic and depth sensors using thrusters/propellers \hfill  [\url{http://auv-iitb.org}]
+        \begin{itemize}
+            %\item Working on  towards competing in AUVSI Robosub 2013 
+            \item Working with the software sub-division on localization and navigation of the vehicle  by \\ fusing various sensor data using kalman filtering and updating the motion controller
+            \item Using ROS (Robot Operating System) architecture to integrate several parts of the system
+        \end{itemize}
+    \item \textbf{ High Level Synthesis using Legup} \hfill \emph{(Guided by Prof. S. Patkar, September 2012 to Present) }  \\
+    Working under High Power Computing Lab, EE Dept. on HLS to implement a memory model using stacks or queues to improve the synthesis of specific applications with regular and iterative algorithms to hardware
+    Building up on legup infrastructure to analyze different high level techniques
+   
+    %\item \textbf{ Speech recognition - Artificial Intelligence} \emph{(Guided by Prof. G. Sivakumar, CS621 - Autumn 2012)}
+
+\end{itemize}
+
+\resheading{\textbf{\large Google Summer of Code - GSoC'12}} \\
+
+\hspace{1mm} Worked on the project \textbf{Gnucap plugin for schematic files} \hfill \emph{(May 2012 to August 2012)} \\[-0.6cm]
     \begin{itemize}
-        \item Worked with the organisation 'The GNU Project' on the project 'Gnucap' (GNU Circuit Analysis Package) under the mentorship of Albert Davis \ \ \ \  [\url{gnucap.org}] \\[-0.6cm]
-        \item Programmed in C++. The plugin can be loaded dynamically at run-time
+        \item Worked with the organisation 'GNU Project' on the project 'Gnucap' (GNU Circuit Analysis Package) under the mentorship of Albert Davis. \hfill  [\url{http://gnucap.org}] \\[-0.6cm]
         \item My work involved the following :
         \begin{itemize} \itemsep \isep
         \item Reading through the existing codebase to understand it 
         \item Figuring a way to map schematic file to Verilog-AMS and vice-versa
-        \item Implementing a plugin which will import a schematic file and convert into a Verilog-AMS netlist and also export an existing  circuit in schematic format
+        \item Implementing a plugin which will import a schematic file and convert into a Verilog-AMS netlist and also export an existing circuit in schematic format
         
     \end{itemize}
-    \end{itemize}
+    \end{itemize} 
 
 
-\resheading{\textbf{\large Course Projects}}\\[\lsep]
+\resheading{\textbf{\large Academic Course Projects}}\\[\lsep]
 \begin{itemize}
-\item \textbf{Traveling Message Display} \emph{(Guided by Prof. M.B.Patil and J.John, EE214- Spring 2012)}\\[-0.6cm]
+    \item \textbf{Technology Mapping - VLSI CAD} \hfill \emph{(Guided by Prof. S.Patkar, EE677 - Autumn 2012)} \\[-0.6cm]
+    \begin{itemize} \itemsep \isep
+        \item Modeling the problem of technology mapping as a tree covering problem using pattern trees of the library gates.
+        \item Implementing using python graph-tool library
+    \end{itemize}
+\pagebreak
+
+    \item \textbf{Traveling Message Display} \hfill \emph{(Guided by Prof. M.B.Patil and J.John, EE214- Spring 2012)}\\[-0.6cm]
     \begin{itemize}\itemsep \isep
         \item Worked in a team of 3 members
         \item Display a scrolling message taken using keypad on an LED Array
         \item Used an FPGA board: DE0 NANO and programmed using Verilog-HDL
         \item My work involved writing verilog modules for taking input from the keypad and processing
     \end{itemize}
-    	\item \textbf{Simulation of Micromouse} \emph{(Guided by Prof.Deepak B. Phatak, CS101 - Autumn 2010)}\\[-0.6cm]
+    	\item \textbf{Simulation of Micromouse} \hfill \emph{(Guided by Prof.Deepak B. Phatak, CS101 - Autumn 2010)}\\[-0.6cm]
 	\begin{itemize}\itemsep \isep 
 	    \item Led the team of 12 members.with 3 subteams of 4 members each
 	    \item Designed n$\times$n mazes, Solved them for the shortest path using Bellman-ford algorithm in C++ and Simulated the solution using EzWindows GUI.
 	    \item My work involved programming the display over GUI and interlinking the different parts
 	\end{itemize} 
+\begin{comment}
 \item \textbf{Term paper on Working of a Cordless Telephone} \emph{(Guided by Prof. Vasi J. , EE112 - Spring 2011)\\[-0.6cm]}
 	\begin{itemize} \itemsep \isep
 	  \item Opened and Analyzed a Cordless phone.
 	  \item Worked in a team of 3 members.
 	  \item Written a 12-page Term paper with details of working of the phone.
 	\end{itemize}
+\end{comment}
 \end{itemize}
 
-\resheading{\textbf{\large Interests and Hobbies}} \\[\lsep] 
-\begin{itemize} \itemsep \isep
-    \item Digital Electronics, Microprocessors and VLSI Design
-    \item Computer Science fields like Artificial Intelligence and Natural Language Processing
-    \item App Development and Programming
+
+\resheading{\textbf{\large Scholastic Achievements}}\\[\lsep]
+\begin{itemize}
+  \item \textbf{All India Rank 61} in IT-JEE (Joint Entrance Examination) - 2010 of 0.455 million students\\[-0.7cm]
+  %\item \textbf{All India Rank 3} in NEST (National Entrance Screening Test)-2010 of 18000 students \\[-0.7cm]
+  %\item \textbf{All India Rank 168} in AIEEE (All India Engineering Entrance Examination)- 2010 of 1.1 million students
+
+  %\item Qualified to appear for the Indian National Chemistry Olympiad (\textbf{INChO}) -2010 based on \\performance in National Standard Examination in Chemistry(\textbf{NSEC}) (For \textbf{top 300} in NSEC) and has been awarded a book prize for \textbf{top 1\%} in the nation .\\[-0.7cm]
+  %\item Qualified to appear for the Indian National Physics Olympiad (\textbf{INPhO}) -2010 based on \\ performance in National Standard Examination in Chemistry(\textbf{NSEP}). (For \textbf{top 300} in NSEP) 
+
+  \item Awarded \textbf{Certificate of Merit} by Central Board of Secondary Education (\textbf{CBSE}) for being among \textbf{top 0.1 \%} in 'Science' and 'Social Science' in All India Secondary School Examination - 2008. \\[-0.7cm]
+  %\item Awarded '\textbf{Certificate of Excellence}' for securing highest aggregrate marks in the \\ school and  the title '\textbf{Amul Vidya Shree}' for Outstanding Academic performance in AISSE - 2008.
+
+  %\item Secured \textbf{AIR 4} in NIMO (National Interactive Maths Olympiad)-2009 and \textbf{AIR 5} in NISO\\ (National Interactive Science Olympiad)-2009 conducted by Eduheal Foundation.\\[-0.8cm]
+  %\item Secured \textbf{AIR 5} in the  XXXIX National Mathematics Talent Competition (\textbf{NMTC})-2007 conducted by Association of Mathematics Teachers of India (\textbf{AMTI}).\\[-0.8cm]
+  %\item Secured \textbf{AIR 5} in FIITJEE Talent Reward Exam (FTRE) and was awarded medal for zonal topper in Mathematics, Physics and Overall.
+  \item Secured \textbf{AIR 15} in 10th National Science Olympiad (NSO) - 2007 conducted by \\ Science Olympiad Foundation(SOF).
+  %\item Secured \textbf{State Rank 9} in 7th National Cyber Olympiad (NCO)- 2007 conducted by SOF.
+  %\item Secured \textbf{State Rank 13} in XX State Talent Search Examination- 2007 conducted by \\ Dr.A.S. Rao Awards Council and was awarded a book prize.
 \end{itemize}
 
 \resheading{\textbf{\large Technical Skills}}\\[\lsep]
 \begin{itemize}
   %\item Awarded Certificate of Participation in the Winter Workshop on Technical Skills conducted by \\ \ \  \ \ \ \  STUDe Club, IIT Bombay in January 2011. \\[-0.6cm]
-   \item \textbf{Programming Languages}: C++,Java,Python,Ruby \  \ \ \ \ \ \ \  \textbf{Operating Systems}: Ubuntu, Windows\\[-0.6cm]
-  \item \textbf{Tools}: Matlab, Mathematica, Scilab, Latex, Photoshop\ \ \ \  \textbf{Web designing}: HTML, CSS, Javascript\\[-0.6cm]
-  \item \textbf{EE tools}: Spice, Verilog-HDL, Verilog-AMS , Arduino
+   \item \textbf{Programming Languages}: C++,Java,Python,Ruby \hfill \textbf{Operating Systems}: Ubuntu, Windows\\[-0.6cm]
+  \item \textbf{Tools}: Latex Scilab, Mathematica , Photoshop\hfill \textbf{Web development}: HTML, CSS, JS, Django\\[-0.6cm]
+  \item \textbf{EE tools}: ngspice, gnucap,  gEDA tools, Eagle, Verilog-HDL, Verilog-AMS, Icarus verilog \\ \hspace*{1.5cm} Bluespec System Verilog (BSV), Modelsim, Altera Quartus
 \end{itemize}
 
 \resheading{\textbf{\large Technical Activities}}\\[\lsep]
@@ -162,7 +208,7 @@
 \end{itemize}
 	
 
-\resheading{\textbf{\large Courses currently taking (Autumn 2012)}}\\[\lsep]
+\resheading{\textbf{\large Additional Courses taken / currently taking}}\\[\lsep]
  % \begin{itemize}
   \begin{comment}
   \item \textbf{Courses Taken}	
@@ -179,6 +225,7 @@
 	\end{itemize}
 	\end{comment}
 % \item \textbf{Courses currently taking this semester}
+\begin{comment}
  	\begin{itemize} \itemsep \isep
  	    \item EE Core Courses: \\[-0.6cm]
  	    \begin{itemize}\itemsep \isep
@@ -197,7 +244,84 @@
  	        \item Psychology
  	    \end{itemize}
  	\end{itemize}
+\end{comment}
 %\end{itemize}
 
+\begin{itemize}\itemsep \isep
+    \item Foundations of VLSI CAD 
+    \item Artificial Intelligence 
+    \item Data Structures and Algorithms 
+    \item Discrete Structures
+    \item Introduction to Quantum Mechanics
+    \item First Course in Optimisation
+\end{itemize}
+
+\begin{comment}
+\resheading{\large{Courses}}
+{\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|l|c|l|c|}
+\hline
+\multicolumn{4}{|c|}{\bfseries Electrical and Electronics}\\
+\hline
+Course & Grade & Course & Grade \\
+\hline
+Introduction to Electrical Systems &8 & Introduction to Electronics &10 \\
+\hline
+Network theory  &8 & Electronic Devices and Circuits  &7 \\
+\hline
+Signals and Systems  &7 & Electrical Machines and Power Electronics &7  \\
+\hline
+Digital Systems  &10 & Analog Circuits  &10 \\
+\hline
+Electromagnetic Waves  &NA & Communication Systems  &NA \\
+\hline
+Microprocessors  &NA & Probability and Random Processes  &NA \\
+\hline
+Control Systems  &NA & Digital Signal Processing  &NA \\
+\hline
+Power Systems  &NA & Digital Communications  &NA \\
+\hline
+System Design &NA & Testing and Verification of VLSI Circuits  &NA\\
+\hline
+A first course in optimization  &9 & Foundation of VLSI CAD  & NA \\
+\hline
+\multicolumn{2}{|c}{\bfseries Computer Science} &
+\multicolumn{2}{c|}{\bfseries Mathematics} \\
+\hline
+Computer Programming and Utilization  &10 & Calculus  &10 \\
+\hline
+Data Structures and Algorithms  &NA & Linear Algebra  &8 \\
+\hline
+Discrete Structures  &6 &  Differential Equations I  &7 \\
+\hline
+Artificial Intelligence  &NA & Differential Equations II  &7 \\
+\hline
+Computer Networks  &NA & Data Analysis and Interpretation &10 \\
+\hline
+\multicolumn{4}{|c|}{\bfseries Laboratories} \\
+\hline
+Digital Electronics Lab  &8 & Analog Circuits Lab  &8 \\
+\hline
+Microprocessors Lab  &NA & Electrical Machines &8 \\
+\hline
+Electronics Devices  &7 & Communications Lab  &NA \\
+\hline
+Experimentation and Measurements  &8 & Control Systems Lab  &NA  \\
+\hline
+Engineering Drawing  &9 & Workshop Practice   &9 \\
+\hline
+Chemistry Lab  &10 & Physics Lab  &8 \\
+\hline
+\multicolumn{4}{|c|}{\bfseries Sciences and Humanities}\\
+\hline
+Electricity and Magnetism &9  & Chemistry  &8 \\
+\hline
+Economics  &8 & Psychology  &NA \\
+\hline
+\end{tabular}}\\
+\\
+{\small The courses marked with NA shall be covered in the academic
+year 2012-13}
+\end{comment}
 
 \end{document}
